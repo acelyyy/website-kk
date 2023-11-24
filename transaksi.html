@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="transaksi.css">
+    <title>transaksi</title>
+
+</head>
+<body>
+<div class="container">
+
+    <form action="laporan.html" method="POST">
+
+        <div class="row">
+
+            <div class="col">
+
+                <h3 class="title">Transaksi Pembayaran</h3>
+
+                <div class="inputBox">
+                    <span>Nama Lengkap :</span>
+                    <input type="text" placeholder="" required>
+                </div>
+                <div class="inputBox">
+                    <span>Lokasi :</span>
+                    <input type="text" placeholder="">
+                </div>
+
+            </div>
+
+            <div class="col">
+
+                <h3 class="title">Pembayaran</h3>
+
+                <div class="inputBox"><span>Kartu :</span><img src="https://iconape.com/wp-content/png_logo_vector/bca-bank-central-asia.png" alt="">
+                <img src="https://1.bp.blogspot.com/-aYApmQz2ZF4/XnK19AqNMYI/AAAAAAAASb8/UoPPqLROubECfTZbAqlX9FZJMgtVvi3OgCLcBGAsYHQ/s1600/Dana.png">
+                <P>
+                <select id="kartu" name="kartu" required>
+                <option value="BCA">BCA</option>
+                <option value="DANA">DANA</option>
+
+                <!-- Tambahkan opsi rasa lainnya sesuai kebutuhan -->
+            </select>
+        </P>
+                </div>
+                <div class="inputBox">
+                    <span>Nama Pemiliki Kartu :</span>
+                    <input type="text" placeholder="">
+                </div>
+                <div class="inputBox">
+                    <span>Nomor Kartu :</span>
+                    <input type="number" placeholder="">
+                </div>
+                <div class="inputBox">
+                    <span>Bulan :</span>
+                    <input type="text" placeholder="">
+                </div>
+
+                <div class="flex">
+                    <div class="inputBox">
+                        <span>Tahun :</span>
+                        <input type="number" placeholder="">
+                    </div>
+                    <div class="inputBox">
+                        <span>Catatan :</span>
+                        <input type="text" placeholder="">
+                    </div>
+                </div>
+
+            </div>
+    
+        </div>
+        <input type="submit" value="Proses Pembayaran" class="submit-btn">
+    </form>
+
+</div>    
+    
+</body>
+</html>

@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://blog-images.reddoorz.com/uploads/ckeditor/pictures/6961/content_tempat-aesthetic-di-jakarta-6.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    padding: 100px;
+}
